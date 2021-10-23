@@ -1,0 +1,48 @@
+body {
+  background-image: url(https://pictures.telegram-store.com/channels/floppaedits/3104_2021_07_11_1_.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 200vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: rgb(49, 100, 84);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timer {
+  padding: 20px;
+  background-color: rgb(0, 0, 0, 0.7);
+  color: white;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+  font-weight: 900;
+  font-family: "Noto Serif Display", serif;
+}
+.field {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.label {
+  font-size: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .timer {
+    flex-direction: column;
+    font-size: 50px;
+  }
+  .label {
+    font-size: 25px;
+  }
+  body {
+    background-position: center;
+    height: 100vh;
+  }
+}
